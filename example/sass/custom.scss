@@ -27,21 +27,14 @@ $new-container-max-widths: ( xl: 1360px, xxl:1520px );
 
 $container-max-widths: map-merge($container-max-widths, $new-container-max-widths);
 :root {
-
     --main-background: #EFD0CA;
-
     --main-white-background: #F7E7E4;
-
     --primary-red: #D64933;
-
     --secondary-red: #EBBCB3;
-
     --primary-blue: #235789;
-
     --primary-font: 'Magilio';
-
     --secondary-font: 'Inter';
-
+    --max-container-width: 1440px;
 }
 /*Variable Stili Guida*/
 
@@ -57,6 +50,10 @@ html, body {
 
     @include mainFontStyle;
 
+}
+
+.container {
+    max-width: var(--max-container-width);
 }
 
 .logo {

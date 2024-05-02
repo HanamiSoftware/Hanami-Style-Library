@@ -22,6 +22,7 @@
   --primary-blue: #235789;
   --primary-font: "Magilio";
   --secondary-font: "Inter";
+  --max-container-width: 1440px;
 }
 
 /*Variable Stili Guida*/
@@ -31,6 +32,10 @@ html, body {
   background-color: #EFD0CA;
   font-weight: normal;
   font-style: normal;
+}
+
+.container {
+  max-width: var(--max-container-width);
 }
 
 .logo {

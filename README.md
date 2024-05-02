@@ -4,6 +4,8 @@
 the maximum width of a `.container` would be 1440. Because 1440 / 12 the total column span gives me an integer
 ex. `1440px / 12 columns` every column would be 120px. For me easy to work with.
 
+> Remember to alway put the custom.css file that you find in the example after including bootstrap.css
+
 [Bootstrap Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 `.center` added special center class to center every column no matter the column span.
