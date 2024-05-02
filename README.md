@@ -1,11 +1,13 @@
 # Hanami Style Library
 ## How to
 ### If you already use Bootstrap you are good to go. I did only a few changes that helped me complete a Project
-thw maximum width of a `.container` would be 1440. Because 1440 / 12 the total column span gives me an integer
-ex. `1440px / 12 columns` every column would be 120px. For me easy to work with
+the maximum width of a `.container` would be 1440. Because 1440 / 12 the total column span gives me an integer
+ex. `1440px / 12 columns` every column would be 120px. For me easy to work with.
+
+[Bootstrap Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 `.center` added special center class to center every column no matter the column span.
-Sometimes when you have columns of different sizes, with `cl-*-n-offset-n` it's very tricky to center the columns.
+Sometimes when you have columns of different sizes, with `col-*-n-offset-n` it's very tricky to center the columns.
 so just put the .center class in the parent .row and it's done
 ```
 <div class="row content center">
