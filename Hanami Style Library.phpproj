@@ -1,0 +1,26 @@
+<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>d4c0f157-62f5-4134-80d7-962f9d607c0d</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>Custom</EnvName>
+    <RuntimeVersion>8.1</RuntimeVersion>
+    <RootNamespace>Hanami_Style_Library</RootNamespace>
+    <WebRoot />
+    <SaveServerSettingsInUserFile>false</SaveServerSettingsInUserFile>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
+    <PHPDevRouting />
+    <CustomServerUrl>https://localhost/Hanami Style Library/</CustomServerUrl>
+    <CustomXdebugPort>9003</CustomXdebugPort>
+    <DebugMappingMethod>Automatic</DebugMappingMethod>
+    <DebugPathMapping />
+    <DBGpProxyEnabled>false</DBGpProxyEnabled>
+    <DBGpProxyHost />
+    <DBGpProxyPort>9001</DBGpProxyPort>
+    <IdeKey>8D7E3816</IdeKey>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="example\js\" />
+  </ItemGroup>
+</Project>
