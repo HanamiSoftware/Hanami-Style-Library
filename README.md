@@ -60,6 +60,15 @@ if you want popper.js for extended functionality use this from jsdelivr
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 
 ```
+## Mobile and SPA - OPA Web Application with React
+just import in your react app this script and everything will work like a charm
+Thanks to React Bootstrap Library and The Community follow the Instruction here [React Bootstrap Documentation](https://react-bootstrap.netlify.app/docs/getting-started/introduction)
+```
+<script
+  src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
+  crossorigin></script>
+
+```
 but you can just copy and paste `example/index.php`
 
 ### this project uses Sass of course
