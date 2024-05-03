@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "Hanami Style Library", "Hanami Style Library.phpproj", "{D4C0F157-62F5-4134-80D7-962F9D607C0D}"
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "Hanami Style Project", "..\backup\Hanami Style Project.phpproj", "{20DBA366-E95F-4CC8-879B-7FCB39D8E7CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D4C0F157-62F5-4134-80D7-962F9D607C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4C0F157-62F5-4134-80D7-962F9D607C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4C0F157-62F5-4134-80D7-962F9D607C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4C0F157-62F5-4134-80D7-962F9D607C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DBA366-E95F-4CC8-879B-7FCB39D8E7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DBA366-E95F-4CC8-879B-7FCB39D8E7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DBA366-E95F-4CC8-879B-7FCB39D8E7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DBA366-E95F-4CC8-879B-7FCB39D8E7CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
